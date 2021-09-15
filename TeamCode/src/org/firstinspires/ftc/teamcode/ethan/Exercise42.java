@@ -4,7 +4,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 @TeleOp
-public class Exercise42 extends OpMode {
+public abstract class Exercise42 extends OpMode {
     @Override
     public void loop(){
         double yspeed= gamepad1.left_stick_y;
